@@ -12,6 +12,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     color: #181818;
@@ -22,7 +23,7 @@ font-weight: 800;
 nav > ul{
     display: flex;
     align-items: center;
-   
+
    
 }
 nav li{
@@ -43,4 +44,16 @@ font-size: 20px;
 color: white;
 font-weight: 700;
 padding: 15px 35px;
+}
+/* header related css */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
 }
