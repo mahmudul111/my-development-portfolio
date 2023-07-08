@@ -120,7 +120,7 @@ font-size: 35px;
 font-weight: 700;
 }
 #what-i-do-description{
-    padding: 0px 130px;
+    padding: 30px 130px;
 }
 .section-description{
     color: #757575;
@@ -129,15 +129,16 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
+/* skill related style */
 .skill-container{
     display: flex;
     justify-content: space-around;
     padding: 0px 130px;
 }
 .skill{
-    background-color: #FFFFFF;
+    background-color: #fbf2e9;
     margin: 30px;
-    padding: 0px 33px 30px 33px;
+    padding: 20px 33px 30px 33px;
 
 }
 .skill-title{
@@ -152,4 +153,47 @@ line-height: 30px;
     font-weight: 400;
     line-height: 28px;
    
+}
+/* resume section */
+
+.resume-heading{
+    text-align: center;
+    padding-top: 150px;
+    color:  #181818;
+font-size: 35px;
+font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+    padding: 0px 150px;
+}
+.education .experience{
+      
+}
+.resume-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.education-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.institute-duration{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+.education-description{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.download-cv{
+        text-align: center;
+        padding: 20px 0px;
+
 }
