@@ -194,6 +194,12 @@ line-height: 28px;
 }
 .download-cv{
         text-align: center;
-        padding: 20px 0px;
+        margin-top: 50px;
 
+}
+footer{
+    display: flex;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
 }
